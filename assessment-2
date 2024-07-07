@@ -1,0 +1,45 @@
+1.Ans  -b) using <link> tag
+
+2.Ans  -b) using p tag
+
+3.Ans  -b) false
+
+4.Ans  -a) false
+
+5.Ans  -c) 10000000000
+
+6.Ans -A) 
+          const names = people.map(person => person.name);
+          console.log(names);
+
+       -B)
+          const peopleWithSalary = people.map(person => (person,salary: 50000}));
+          console.log(peopleWithSalary);
+
+      -C)
+        const peopleAbove30 = people.filter(person => person.age > 30).map(person => ({name: person.name,age: person.age}));
+        console.log(peopleAbove30);
+7.Ans -
+         function main(cb1, cb2, x, y) {const sum = cb1(x, y);
+         const difference = cb2(x, y);
+         console.log(`Sum: ${sum}`);
+         console.log(`Difference: ${difference}`);
+}
+
+         const cb1 = (a, b) => a + b;
+         const cb2 = (a, b) => a - b;
+
+        const x = 11;
+        const y = 4;
+
+        main(cb1, cb2, x, y);
+
+8.Ans -C) map
+
+10.Ans -C) []
+
+11.Ans -B) display : none removes the element from the dom while visibility : hidden just hides the element.
+
+12.Ans -A)4 10 18
+
+13.Ans -A)[1,2,3,4]
